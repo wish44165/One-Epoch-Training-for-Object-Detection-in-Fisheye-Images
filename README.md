@@ -1,7 +1,4 @@
-## Embedded AI Object Detection Model Design Contest on Fish-eye Around-view Cameras
-
-
-
+## [Embedded AI Object Detection Model Design Contest on Fish-eye Around-view Cameras](http://www.mmasia2023.org/grand_challenges.html)
 
 ### [PAIR-LITEON Competition: Embedded AI Object Detection Model Design Contest on Fish-eye Around-view Cameras](https://aidea-web.tw/topic/2be7c481-0e16-43b8-8d5d-fb181172144b?focus=intro) (Team name: yuhsi44165)
 
