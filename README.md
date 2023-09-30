@@ -13,7 +13,7 @@
 
 $\large{\textbf{Abstract}}$
 
-This competition is divided into two stages: qualification and final competition. We will acquire regular image data and need to perform detection on images with a fisheye effect. The approach outlined in this report involves initially taking the original images and transforming them to resemble images with a fisheye effect for training purposes. Furthermore, this competition imposes limitations on computational resources, so striking a balance between accuracy and speed is a crucial aspect.
+This challenge is divided into two stages: qualification and final competition. We will acquire regular image data and need to perform detection on images with a fisheye effect. The approach outlined in this report involves initially taking the original images and transforming them to resemble images with a fisheye effect for training purposes. Furthermore, this competition imposes limitations on computational resources, so striking a balance between accuracy and speed is a crucial aspect.
 
 
 
