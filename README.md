@@ -13,8 +13,7 @@
 
 $\large{\textbf{Abstract}}$
 
-This article introduces a novel approach to shuttlecock hitting event detection. Instead of depending on generic methods, we capture the hitting action of players by reasoning over a sequence of images. To learn the features of hitting events in a video clip, we specifically utilize a deep learning model known as SwingNet. This model is designed to capture the relevant characteristics and patterns associated with the act of hitting in badminton. By training SwingNet on the provided video clips, we aim to enable the model to accurately recognize and identify the instances of hitting events based on their distinctive features. Furthermore, we apply the specific video processing technique to extract the prior features from the video, which significantly reduces the learning difficulty for the model. The proposed method not only provides an intuitive and user-friendly approach but also presents a fresh perspective on the task of detecting badminton hitting events.
-
+This competition is divided into two stages: qualification and final competition. We will acquire regular image data and need to perform detection on images with a fisheye effect. The approach outlined in this report involves initially taking the original images and transforming them to resemble images with a fisheye effect for training purposes. Furthermore, this competition imposes limitations on computational resources, so striking a balance between accuracy and speed is a crucial aspect.
 
 
 
