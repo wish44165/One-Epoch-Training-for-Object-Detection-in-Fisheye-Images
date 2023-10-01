@@ -71,14 +71,16 @@ $ pip install -r requirements.txt
 
 ### Restricted classes: vehicle→1, pedestrian→2, scooter→3, bicycl→4 (a)
 
-| Datasets           | iVS-Dataset | FishEye8K| Valeo | Datasets_L |
+| Datasets           | iVS-Dataset | FishEye8K| Valeo | Datasets_L (F+V) |
 | --------           | ------------ | --------------------- | -------------------- | --------------------- |
 | Classes            | (a) | Bus:1→1, Bike:2→3, Car:3→1, Pedestrian:4→2, Truck:5→1 | vehicles:1→1, person:2→2, bicycle:3→4 | (a) |
-| Train / Val / Test |1  |  1 | 157358  |  1.Bus(->1.) 2.Bike(->3.) 3.Car(->1.) 4.Pedestrian(->2.) 5.Truck(->1.)    |
-| Train |  |   |   |         |
-| Val |  |   |   |         |
-| Test |  |   |   |         |
-| # labels |  |   |   |         |
+| # Train img | 89002 | 5288 | 6587 | 11875 |
+| # Val img | 2700 | 2712  | 1647  | 4359   |
+| # Test img | 2700 | 0  | 0  | 0        |
+| # Train labels |  |   |   |         |
+| # Val labels |  |   |   |         |
+| # Test labels |  |   |   |         |
+| # Total labels |  |   |   |         |
 
 
 : 178004 / 5400 / 5400    (txt and img)
