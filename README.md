@@ -71,44 +71,29 @@ $ pip install -r requirements.txt
 
 ### Restricted classes (a): vehicle→1, pedestrian→2, scooter→3, bicycl→4
 
-| Datasets       | iVS-Dataset                   | FishEye8K                                             | Valeo | Datasets_L (F+V) |
-| -------------- | ----------------------------- | ----------------------------------------------------- | -------------------- | --------------------- |
-| Classes        | (a)                           | Bus:1→1, Bike:2→3, Car:3→1, Pedestrian:4→2, Truck:5→1 | vehicles:1→1, person:2→2, bicycle:3→4 | (a) |
-| # Train img    | 89002                         | 5288                                                  | 6587 | 11875 |
-| # Val img      | 2700                          | 2712                                                  | 1647  | 4359   |
-| # Test img     | 2700                          | --                                                     | 0  | 0        |
-| # Train labels | [153928, 497843, 74806, 9690] | [153928, 497843, 74806, 9690, 0]                      |   |         |
-| # Val labels   | [3522, 12856, 994, 25]        | [3522, 12856, 994, 25, 0]                             |   |         |
-| # Test labels  | [3532, 12638, 1010, 21]       | --  |   |         |
-| # Total labels | 770865                        |   |   |         |
-
-
-: 178004 / 5400 / 5400    (txt and img)
-: [153928, 497843, 74806, 9690]
-Val: [3522, 12856, 994, 25]
-Test: [3532, 12638, 1010, 21]
-Number of labels: 770865
+| Datasets       | iVS-Dataset                   | FishEye8K                                             | Valeo                                 | Datasets_L (F+V)            |
+| -------------- | ----------------------------- | ----------------------------------------------------- | ------------------------------------- | --------------------------- |
+| Classes        | (a)                           | Bus:1→1, Bike:2→3, Car:3→1, Pedestrian:4→2, Truck:5→1 | vehicles:1→1, person:2→2, bicycle:3→4 | (a)                         |
+| # Train img    | 89002                         | 5288                                                  | 6587                                  | 11875                       |
+| # Val img      | 2700                          | 2712                                                  | 1647                                  | 4359                        |
+| # Test img     | 2700                          | --                                                    | --                                    | --                          |
+| # Train labels | [153928, 497843, 74806, 9690] | [153928, 497843, 74806, 9690, 0]                      | [35464, 12936, 5593]                  | [81285, 22440, 70751, 5652] |
+| # Val labels   | [3522, 12856, 994, 25]        | [3522, 12856, 994, 25, 0]                             | [8940, 3313, 1460]                    | [20187, 5568, 17780, 1401]  |
+| # Test labels  | [3532, 12638, 1010, 21]       | --                                                    | --                                    | --                          |
+| # Total labels | 770865                        | 157358                                                | 67706                                 | 225064                      |
 
 #### Data Augmentation
 
 | Augmented Datasets        | Datasets_fp | Datasets_fp-f | Datasets_fp-r | Datasets_fp-f-r |
 | --------------- | ------------ | --------------------- | -------------------- | --------------------- |
-|      | 94402        |  89002 / 2700 /2700 |  770865 | 1.vehicle 2.pedestrian 3.scooter 4.bicycle |
-|        |1  |  1 | 157358  |  1.Bus(->1.) 2.Bike(->3.) 3.Car(->1.) 4.Pedestrian(->2.) 5.Truck(->1.)    |
-|            |  |   |   |         |
-|       |  |   |   |         |
-
-
-| Datasets        | Total Images | Train / Val / Test| # Labels | Classes |
-| --------------- | ------------ | --------------------- | -------------------- | --------------------- |
-| iVS-Dataset     | 94402        |  89002 / 2700 /2700 |  770865 | 1.vehicle 2.pedestrian 3.scooter 4.bicycle |
-| FishEye8K       |1  |  1 | 157358  |  1.Bus(->1.) 2.Bike(->3.) 3.Car(->1.) 4.Pedestrian(->2.) 5.Truck(->1.)    |
-| Valeo           |  |   |   |         |
-| Datasets_L      |  |   |   |         |
-| Datasets_fp     |  |   |   |         |
-| Datasets_fp-f   |  |   |   |         |
-| Datasets_fp-r   |  |   |   |         |
-| Datasets_fp-f-r |  |   |   |         |
+| Classes        | (a)                           | Bus:1→1, Bike:2→3, Car:3→1, Pedestrian:4→2, Truck:5→1 | vehicles:1→1, person:2→2, bicycle:3→4 | (a)                         |
+| # Train img    | 89002                         | 5288                                                  | 6587                                  | 11875                       |
+| # Val img      | 2700                          | 2712                                                  | 1647                                  | 4359                        |
+| # Test img     | 2700                          | --                                                    | --                                    | --                          |
+| # Train labels | [153928, 497843, 74806, 9690] | [153928, 497843, 74806, 9690, 0]                      | [35464, 12936, 5593]                  | [81285, 22440, 70751, 5652] |
+| # Val labels   | [3522, 12856, 994, 25]        | [3522, 12856, 994, 25, 0]                             | [8940, 3313, 1460]                    | [20187, 5568, 17780, 1401]  |
+| # Test labels  | [3532, 12638, 1010, 21]       | --                                                    | --                                    | --                          |
+| # Total labels | 770865                        | 157358                                                | 67706                                 | 225064                      |
 
 </details>
 
