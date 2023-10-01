@@ -69,18 +69,18 @@ $ pip install -r requirements.txt
 
 <details><summary>Dataset Description</summary>
 
-### Restricted classes: vehicle→1, pedestrian→2, scooter→3, bicycl→4 (a)
+### Restricted classes (a): vehicle→1, pedestrian→2, scooter→3, bicycl→4
 
-| Datasets           | iVS-Dataset | FishEye8K| Valeo | Datasets_L (F+V) |
-| --------           | ------------ | --------------------- | -------------------- | --------------------- |
-| Classes            | (a) | Bus:1→1, Bike:2→3, Car:3→1, Pedestrian:4→2, Truck:5→1 | vehicles:1→1, person:2→2, bicycle:3→4 | (a) |
-| # Train img | 89002 | 5288 | 6587 | 11875 |
-| # Val img | 2700 | 2712  | 1647  | 4359   |
-| # Test img | 2700 | 0  | 0  | 0        |
-| # Train labels |  |   |   |         |
-| # Val labels |  |   |   |         |
-| # Test labels |  |   |   |         |
-| # Total labels |  |   |   |         |
+| Datasets       | iVS-Dataset                   | FishEye8K                                             | Valeo | Datasets_L (F+V) |
+| -------------- | ----------------------------- | ----------------------------------------------------- | -------------------- | --------------------- |
+| Classes        | (a)                           | Bus:1→1, Bike:2→3, Car:3→1, Pedestrian:4→2, Truck:5→1 | vehicles:1→1, person:2→2, bicycle:3→4 | (a) |
+| # Train img    | 89002                         | 5288                                                  | 6587 | 11875 |
+| # Val img      | 2700                          | 2712                                                  | 1647  | 4359   |
+| # Test img     | 2700                          | --                                                     | 0  | 0        |
+| # Train labels | [153928, 497843, 74806, 9690] | [153928, 497843, 74806, 9690, 0]                      |   |         |
+| # Val labels   | [3522, 12856, 994, 25]        | [3522, 12856, 994, 25, 0]                             |   |         |
+| # Test labels  | [3532, 12638, 1010, 21]       | --  |   |         |
+| # Total labels | 770865                        |   |   |         |
 
 
 : 178004 / 5400 / 5400    (txt and img)
