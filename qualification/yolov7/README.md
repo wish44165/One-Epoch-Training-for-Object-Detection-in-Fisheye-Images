@@ -33,14 +33,14 @@ $ pip install scikit-learn
 
 </details>
 
-<details><summary>Demo</summary>
+<details><summary>Train</summary>
 
 ```bash
-$ wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt
-$ python detect.py --weights yolov7-tiny.pt --source inference/images/horses.jpg --img 640
+$ wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x_training.pt
+$ python3 train.py --weights yolov7x_training.pt --data data/custom_fp.yaml --workers 16 --batch-size 6 --img 640 --cfg cfg/training/yolov7x.yaml --name yolov7x --hyp data/hyp.scratch.p5.yaml
 ```
 
-## If Inference without using GPU
+## If without using GPU
 ```bash
 $ pip install --upgrade pip
 $ pip install -r requirements.txt
