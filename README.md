@@ -13,32 +13,9 @@ $\large{\textbf{Abstract}}$
 This challenge is divided into two stages: qualification and final competition. We will acquire regular image data and need to perform detection on images with a fisheye effect. The approach outlined in this report involves initially taking the original images and transforming them to resemble images with a fisheye effect for training purposes. Furthermore, this challenge imposes limitations on computational resources, so striking a balance between accuracy and speed is a crucial aspect. Firstly, we will outline the approach employed in this challenge. Additionally, we will provide the complete procedure that replicates our results. To summarize, we secured the first position in the qualification competition and the fourth position in the final competition.
 
 
-## 0. Folder Structure
-
-```bash
-# Qualification Competition
-Qualification/
-├── yolov7/
-    ├── requirements.txt
-    └── submit.py
-└── preprocess/
-    ├── DataAugmentationForObjectDetection/
-    ├── Tools_KITTI2FishEye/
-    └── resplit.py
-# Final Competition
-mx/
-├── cal_model_complexity.py
-├── cal_model_size.py
-├── calculate.py
-├── requirements.txt
-├── run_detection_onnx.py
-└── run_detection_pt.py
-```
-
 
 
 ## 1. Environmental Setup
-
 
 <details>
 
@@ -57,6 +34,10 @@ mx/
 ```bash
 $ conda create -n yolov7 python=3.9 -y
 $ conda activate yolov7
+$ git clone https://github.com/WongKinYiu/yolov7.git
+$ cd yolov7/
+$ pip install -r requirements.txt
+$ pip install scikit-learn
 ```
   
 </details>
@@ -71,30 +52,11 @@ $ sudo apt-get install python3-virtualenv
 $ virtualenv --version    # check version
 $ python3.8 -m venv ~/mx
 $ . ~/mx/bin/activate
-```
-  
-</details>
-
-
-<details>
-
-<summary>Install Required Packages</summary>
-
-### yolov7
-```bash
-$ git clone https://github.com/WongKinYiu/yolov7.git
-$ cd yolov7/
-$ pip install -r requirements.txt
-$ pip install scikit-learn
-```
-
-### mx
-```bash
 $ pip3 install --upgrade pip wheel
 $ pip3 install --extra-index-url https://developer.memryx.com/pip memryx
 >> eneural_event
 >> memryx23
-$ cd mx/
+$ cd ~/mx/
 $ pip install -r requirements.txt
 ```
   
@@ -112,42 +74,23 @@ $ pip install -r requirements.txt
 - Create the following folder structure on the local machine
 
     ```bash
-    Badminton/
-    ├── data/
-        └── part1/
-            └── val/
-    └── src/
-        ├── TrackNetV2_pytorch/
-            ├── 10-10Gray/
-                ├── denoise10_custom.py
-                └── predict10.py
-            ├── HitFrame.py
-            ├── LandingX.py
-            └── event_detection_custom.py
-        ├── ultralytics/
-            ├── demo.py
-            └── submit.py
-        ├── ViT-pytorch_Backhand/
-            └── submit.py
-        ├── ViT-pytorch_BallHeight/
-            └── submit.py
-        ├── ViT-pytorch_BallType/
-            └── submit.py
-        ├── ViT-pytorch_Hitter/
-            └── submit.py
-        ├── ViT-pytorch_RoundHead/
-            └── submit.py
-        ├── ViT-pytorch_Winner/
-            └── submit.py
-        ├── postprocess/
-            ├── get_hitframe_yolo.py
-            └── get_hitframe.py
-        ├── preprocess/
-            └── rt_conversion_datasets.py
-        └── yolov5/
-            ├── LandingY_Hitter_Defender_Location.py
-            ├── demo.py
-            └── detect.py
+    # Qualification Competition
+    Qualification/
+    ├── yolov7/
+        ├── requirements.txt
+        └── submit.py
+    └── preprocess/
+        ├── DataAugmentationForObjectDetection/
+        ├── Tools_KITTI2FishEye/
+        └── resplit.py
+    # Final Competition
+    mx/
+    ├── cal_model_complexity.py
+    ├── cal_model_size.py
+    ├── calculate.py
+    ├── requirements.txt
+    ├── run_detection_onnx.py
+    └── run_detection_pt.py
     ```
 
 </details>
