@@ -1,7 +1,5 @@
 ## YOLOv7-X
 
-## Folder Structure
-
 ```bash
 mx/
 ├── requirements.txt
