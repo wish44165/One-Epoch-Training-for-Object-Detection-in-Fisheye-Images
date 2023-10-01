@@ -357,9 +357,8 @@ $ pip install -r requirements.txt
 
 
 ### 4.2. Final
-|Team | Score                                                                                        | Accuracy | Model Complexity GFLOPs | Model size MB | Speed ms| Ranking|
-|----| -------------------------------------------------------------------------------------------- | --------------------- | -------------------- | --------------------- | --- | ---|
-
+|Team | Score      | Accuracy | Model Complexity GFLOPs | Model size MB | Speed ms| Ranking|
+|-----| ---------- | -------- | ----------------------- | ------------- | ------- | -------|
 |yuhsi44165 | 26.60 | 11.23%                   | 195.91               |283.34                | 114.80 | 4/11 |
 
 
