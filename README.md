@@ -10,10 +10,10 @@
 
 $\large{\textbf{Abstract}}$
 
-This challenge is divided into two stages: qualification and final competition. We will acquire regular image data and need to perform detection on images with a fisheye effect. The approach outlined in this report involves initially taking the original images and transforming them to resemble images with a fisheye effect for training purposes. Furthermore, this challenge imposes limitations on computational resources, so striking a balance between accuracy and speed is a crucial aspect.
+This challenge is divided into two stages: qualification and final competition. We will acquire regular image data and need to perform detection on images with a fisheye effect. The approach outlined in this report involves initially taking the original images and transforming them to resemble images with a fisheye effect for training purposes. Furthermore, this challenge imposes limitations on computational resources, so striking a balance between accuracy and speed is a crucial aspect. Firstly, we will outline the approach employed in this challenge. Additionally, we will provide the complete procedure that replicates our results. To summarize, we secured the first position in the qualification competition and the fourth position in the final competition.
 
 
-## Folder Structure
+## 0. Folder Structure
 
 ```bash
 # Qualification Competition
@@ -26,7 +26,7 @@ Qualification/
     ├── Tools_KITTI2FishEye/
     └── resplit.py
 # Final Competition
-Final/
+mx/
 ├── cal_model_complexity.py
 ├── cal_model_size.py
 ├── calculate.py
@@ -54,29 +54,23 @@ Final/
 
 <summary>Create Conda Environments</summary>
 
-### TrackNetv2
 ```bash
-$ conda create -n tracknetv2 python=3.9 -y
+$ conda create -n yolov7 python=3.9 -y
+$ conda activate yolov7
 ```
   
-### SwingNet
-```bash
-$ conda create -n golfdb python=3.8 -y
-```
+</details>
 
-### ViT
-```bash
-$ conda create -n ViT_j python==3.9 -y
-```
-  
-### YOLOv5
-```bash
-$ conda create -n yolov5 python=3.7 -y
-```
 
-### YOLOv8
+<details>
+
+<summary>Create Virtual Environments</summary>
+
 ```bash
-$ conda create -n yolov8 python=3.7 -y
+$ sudo apt-get install python3-virtualenv
+$ virtualenv --version    # check version
+$ python3.8 -m venv ~/mx
+$ . ~/mx/bin/activate
 ```
   
 </details>
@@ -86,59 +80,21 @@ $ conda create -n yolov8 python=3.7 -y
 
 <summary>Install Required Packages</summary>
 
-### TrackNetv2
+### yolov7
 ```bash
-$ conda activate tracknetv2
-$ git clone https://nol.cs.nctu.edu.tw:234/lukelin/TrackNetV2_pytorch.git
-$ sudo apt-get install git
-$ sudo apt-get install python3-pip
-$ pip3 install pandas
-$ pip3 install opencv-python
-$ pip3 install matplotlib
-$ pip3 install -U scikit-learn
-$ pip3 install torch
-$ pip3 install torchvision
+$ git clone https://github.com/WongKinYiu/yolov7.git
+$ cd yolov7/
+$ pip install -r requirements.txt
+$ pip install scikit-learn
 ```
 
-### SwingNet
+### mx
 ```bash
-$ conda activate golfdb
-$ git clone https://github.com/wmcnally/golfdb.git
-$ pip3 install opencv-python
-$ pip3 install scipy
-$ pip3 install pandas
-$ pip3 install torch
-$ pip3 install torchvision
-$ pip3 install torchaudio
-```
-  
-### ViT
-```bash
-$ conda activate ViT_j
-$ git clone https://github.com/jeonsworld/ViT-pytorch.git
-$ cd ViT-pytorch/
-$ pip3 install -r requirements.txt
-$ mkdir checkpoint/
-$ cd checkpoint/
-$ wget https://storage.googleapis.com/vit_models/imagenet21k+imagenet2012/ViT-B_16.npz
-$ git clone https://github.com/NVIDIA/apex    # A PyTorch Extension
-$ cd apex/
-$ python3 setup.py install
-```
-  
-### YOLOv5
-```bash
-$ conda activate yolov5
-$ git clone https://github.com/ultralytics/yolov5.git
-$ cd yolov5/
-$ pip install -r requirements.txt
-```
-  
-### YOLOv8
-```bash
-$ conda activate yolov8
-$ git clone https://github.com/ultralytics/ultralytics.git
-$ cd ultralytics/
+$ pip3 install --upgrade pip wheel
+$ pip3 install --extra-index-url https://developer.memryx.com/pip memryx
+>> eneural_event
+>> memryx23
+$ cd mx/
 $ pip install -r requirements.txt
 ```
   
