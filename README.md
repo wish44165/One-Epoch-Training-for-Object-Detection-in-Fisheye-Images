@@ -75,7 +75,7 @@ $ pip install -r requirements.txt
 
     ```bash
     # Qualification Competition
-    Qualification/
+    qualification/
     ├── yolov7/
         ├── requirements.txt
         └── submit.py
