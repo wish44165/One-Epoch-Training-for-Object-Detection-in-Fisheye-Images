@@ -353,13 +353,13 @@ $ pip install -r requirements.txt
 ### 4.1. Qualification Competition
 | Leaderboards     | Filename               | Upload time         | Evaluation result | Ranking |
 | ---------------- | ---------------------- | ------------------- | ----------------- | ------- |
-| Public & Private | fp-1-0.01-0.5-2172.csv | 2023-08-04 00:51:42 | 0.5700583         | 1/129    |
+| Public & Private | fp-1-0.01-0.5-2172.csv | 2023-08-04 00:51:42 | 0.5700583         | 1/24    |
 
 
 ### 4.2. Final Competition
 | Team       | Score | Accuracy | Model Complexity GFLOPs | Model size MB | Speed ms | Ranking |
 | ---------- | ----- | -------- | ----------------------- | ------------- | -------- | ------- |
-| yuhsi44165 | 26.60 | 11.23%   | 195.91                  | 283.34        | 114.80   | 4/16    |
+| yuhsi44165 | 26.60 | 11.23%   | 195.91                  | 283.34        | 114.80   | 4/11    |
 
 
 
