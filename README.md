@@ -13,23 +13,27 @@ $\large{\textbf{Abstract}}$
 This challenge is divided into two stages: qualification and final competition. We will acquire regular image data and need to perform detection on images with a fisheye effect. The approach outlined in this report involves initially taking the original images and transforming them to resemble images with a fisheye effect for training purposes. Furthermore, this challenge imposes limitations on computational resources, so striking a balance between accuracy and speed is a crucial aspect.
 
 
-<details>
-
-<summary>Folder Structure</summary>
+## Folder Structure
 
 ```bash
+# Qualification Competition
 Qualification/
-├── models/
-    ├── 
+├── yolov7/
+    ├── requirements.txt
+    └── submit.py
 └── preprocess/
-
+    ├── DataAugmentationForObjectDetection/
+    ├── Tools_KITTI2FishEye/
+    └── resplit.py
+# Final Competition
 Final/
-├── models/
-    ├── 
-└── preprocess/
+├── cal_model_complexity.py
+├── cal_model_size.py
+├── calculate.py
+├── requirements.txt
+├── run_detection_onnx.py
+└── run_detection_pt.py
 ```
-  
-</details>
 
 
 
