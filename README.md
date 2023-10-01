@@ -69,7 +69,33 @@ $ pip install -r requirements.txt
 
 <details><summary>Dataset Description</summary>
 
-- classes: 1.vehicle 2.pedestrian 3.scooter 4.bicycle
+### Restricted classes: vehicle→1, pedestrian→2, scooter→3, bicycl→4 (a)
+
+| Datasets           | iVS-Dataset | FishEye8K| Valeo | Datasets_L |
+| --------           | ------------ | --------------------- | -------------------- | --------------------- |
+| Classes            | (a) | Bus:1→1, Bike:2→3, Car:3→1, Pedestrian:4→2, Truck:5→1 | vehicles:1→1, person:2→2, bicycle:3→4 | (a) |
+| Train / Val / Test |1  |  1 | 157358  |  1.Bus(->1.) 2.Bike(->3.) 3.Car(->1.) 4.Pedestrian(->2.) 5.Truck(->1.)    |
+| Train |  |   |   |         |
+| Val |  |   |   |         |
+| Test |  |   |   |         |
+| # labels |  |   |   |         |
+
+
+: 178004 / 5400 / 5400    (txt and img)
+: [153928, 497843, 74806, 9690]
+Val: [3522, 12856, 994, 25]
+Test: [3532, 12638, 1010, 21]
+Number of labels: 770865
+
+#### Data Augmentation
+
+| Augmented Datasets        | Datasets_fp | Datasets_fp-f | Datasets_fp-r | Datasets_fp-f-r |
+| --------------- | ------------ | --------------------- | -------------------- | --------------------- |
+|      | 94402        |  89002 / 2700 /2700 |  770865 | 1.vehicle 2.pedestrian 3.scooter 4.bicycle |
+|        |1  |  1 | 157358  |  1.Bus(->1.) 2.Bike(->3.) 3.Car(->1.) 4.Pedestrian(->2.) 5.Truck(->1.)    |
+|            |  |   |   |         |
+|       |  |   |   |         |
+
 
 | Datasets        | Total Images | Train / Val / Test| # Labels | Classes |
 | --------------- | ------------ | --------------------- | -------------------- | --------------------- |
