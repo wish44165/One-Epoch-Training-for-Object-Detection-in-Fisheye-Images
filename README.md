@@ -85,12 +85,22 @@ $ pip install -r requirements.txt
         └── resplit.py
     # Final Competition
     mx/
-    ├── cal_model_complexity.py
-    ├── cal_model_size.py
-    ├── calculate.py
+    ├── model_0_best.onnx
+    ├── model_0_best_post.onnx
     ├── requirements.txt
+    ├── calculate.py
+    ├── cal_model_size.pdf
+    ├── cal_model_size.py
+    ├── cal_model_complexity.pdf
+    ├── cal_model_complexity.py
+    ├── run_detection_pt.py
     ├── run_detection_onnx.py
-    └── run_detection_pt.py
+    ├── best.dfp
+    ├── best.onnx
+    ├── best.pt
+    ├── best.csv
+    ├── best.txt
+    └── techreport.pdf
     ```
 
 </details>
