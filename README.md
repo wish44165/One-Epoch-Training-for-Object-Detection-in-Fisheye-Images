@@ -100,13 +100,13 @@ $ pip install -r requirements.txt
 
 <details>
 
-<summary>VideoName, ShotSeq, HitFrame</summary>
+<summary>dataset_v1</summary>
 
 1. put Badminton/data/part2/test/00170/ .. /00399/ into Badminton/data/part1/val/
     ```bash
-    → Badminton/data/part1/val/00001/ .. /00399/    # 1280x720
-    # CodaLab
-    → Badminton/data/CodaLab/testdata_track1/00170/ .. /00399/    # 1280x720
+    $ xml2txt.py
+    $ labelCheck.py
+    $ folderStructure.py
     ```
 2. convert val/+test/ to val_test_xgg/
     ```bash
@@ -117,14 +117,6 @@ $ pip install -r requirements.txt
     → Badminton/src/preprocess/val_test_xgg/    # 1280x720
     # CodaLab
     → Badminton/src/preprocess/CodaLab/testdata_track1/    # 1280x720
-    ```
-3. upload val_test_xgg/ to google drive Teaching_Computer_to_Watch_Badminton_Matches_Taiwan_first_competition_combining_AI_and_sports/datasets/part1/
-    ```bash
-    → Teaching_Computer_to_Watch_Badminton_Matches_Taiwan_first_competition_combining_AI_and_sports/datasets/part1/val_test_xgg/
-    → execute golfdb_xgg_inference_best.ipynb
-    → src/Notebook/golfdb/golfdb_G3_fold5_iter3000_val_test_X.csv    # 0.0426
-    # CodaLab
-    → src/Notebook/golfdb/CodaLab_testdata_track1.csv
     ```
   
 </details>
