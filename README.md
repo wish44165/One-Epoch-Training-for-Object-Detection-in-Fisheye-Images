@@ -84,16 +84,12 @@ $ pip install -r requirements.txt
 
 #### Data Augmentation
 
-| Augmented Datasets        | Datasets_fp | Datasets_fp-f | Datasets_fp-r | Datasets_fp-f-r |
-| --------------- | ------------ | --------------------- | -------------------- | --------------------- |
-| Classes        | (a)                           | Bus:1→1, Bike:2→3, Car:3→1, Pedestrian:4→2, Truck:5→1 | vehicles:1→1, person:2→2, bicycle:3→4 | (a)                         |
-| # Train img    | 89002                         | 5288                                                  | 6587                                  | 11875                       |
-| # Val img      | 2700                          | 2712                                                  | 1647                                  | 4359                        |
-| # Test img     | 2700                          | --                                                    | --                                    | --                          |
-| # Train labels | [153928, 497843, 74806, 9690] | [153928, 497843, 74806, 9690, 0]                      | [35464, 12936, 5593]                  | [81285, 22440, 70751, 5652] |
-| # Val labels   | [3522, 12856, 994, 25]        | [3522, 12856, 994, 25, 0]                             | [8940, 3313, 1460]                    | [20187, 5568, 17780, 1401]  |
-| # Test labels  | [3532, 12638, 1010, 21]       | --                                                    | --                                    | --                          |
-| # Total labels | 770865                        | 157358                                                | 67706                                 | 225064                      |
+| Augmented Datasets | Datasets_fp | Datasets_fp-f | Datasets_fp-r | Datasets_fp-f-r |
+| ------------------ | ----------- | ------------- | ------------- | --------------- |
+| Classes            | (a)         | (a)           | (a)           | (a)             |
+| # Train img        | 151042      | 151042        | 453126        | 453126          |
+| # Val img          | 37762       | 37762         | 113286        | 113286          |
+| # Test img         | --          | --            | --            | --              |
 
 </details>
 
