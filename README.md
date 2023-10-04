@@ -177,9 +177,9 @@ $ pip install -r requirements.txt
 
 ## 6. References
 
-- [Visual Chirality](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Visual_Chirality_CVPR_2020_paper.pdf)
 - [Correcting Fisheye Images](https://www.baeldung.com/cs/correcting-fisheye-images)
 - [WoodScape: A Multi-Task, Multi-Camera Fisheye Dataset for Autonomous Driving](https://ieeexplore.ieee.org/document/9008254)
+- [Visual Chirality](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Visual_Chirality_CVPR_2020_paper.pdf)
 
 
 
