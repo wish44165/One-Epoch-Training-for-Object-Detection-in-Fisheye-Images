@@ -28,7 +28,7 @@ $ python resplit.py
 </details>
 
 
-<details><summary>4. Implement fisheye distortion</summary>
+<details><summary>4. Implement fisheye distortion.</summary>
 
 ```bash
 $ ./fisheye
