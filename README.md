@@ -166,10 +166,11 @@ $ pip install -r requirements.txt
 
 ## 5. GitHub Acknowledgement
 
-- [Official YOLOv7](https://github.com/WongKinYiu/yolov7)
 - [Conversion Tool for FishEye Dataset](https://github.com/leofansq/Tools_KITTI2FishEye)
 - [FishEye8K: A Benchmark and Dataset for Fisheye Camera Object Detection](https://github.com/MoyoG/FishEye8K)
 - [WoodScape: A multi-task, multi-camera fisheye dataset for autonomous driving](https://github.com/valeoai/WoodScape)
+- [Data Augmentation For Object Detection](https://github.com/Paperspace/DataAugmentationForObjectDetection)
+- [Official YOLOv7](https://github.com/WongKinYiu/yolov7)
 
 
 
