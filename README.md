@@ -163,30 +163,33 @@ $ pip install -r requirements.txt
 
 
 
+
 ## 5. GitHub Acknowledgement
 
+- [Official YOLOv7](https://github.com/WongKinYiu/yolov7)
+- [Conversion Tool for FishEye Dataset](https://github.com/leofansq/Tools_KITTI2FishEye)
 - [FishEye8K: A Benchmark and Dataset for Fisheye Camera Object Detection](https://github.com/MoyoG/FishEye8K)
 - [WoodScape: A multi-task, multi-camera fisheye dataset for autonomous driving](https://github.com/valeoai/WoodScape)
-- [Conversion Tool for FishEye Dataset](https://github.com/leofansq/Tools_KITTI2FishEye)
-- [Official YOLOv7](https://github.com/WongKinYiu/yolov7)
 
 
 
 
 ## 6. References
 
+- [Visual Chirality](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Visual_Chirality_CVPR_2020_paper.pdf)
 - [Correcting Fisheye Images](https://www.baeldung.com/cs/correcting-fisheye-images)
 - [WoodScape: A Multi-Task, Multi-Camera Fisheye Dataset for Autonomous Driving](https://ieeexplore.ieee.org/document/9008254)
+
 
 
 
 ## Citation
 ```
 @misc{chen2023new,
-      title={A New Perspective for Shuttlecock Hitting Event Detection}, 
+      title={One-Epoch Training for Object Detection in Fisheye Images}, 
       author={Yu-Hsi Chen},
       year={2023},
-      eprint={2306.10293},
+      eprint={},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
