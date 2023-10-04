@@ -3,6 +3,9 @@
 
 ## Overview
 
+
+- [YOLOv7-E6E: epoch_000.pt (0.5700583)](https://drive.google.com/file/d/187FkcX5Drs3HP_70zw43BXbEKv61-p1U/view?usp=drive_link)
+
 - [epoch_000.pt (0.5542754)](https://drive.google.com/file/d/187FkcX5Drs3HP_70zw43BXbEKv61-p1U/view?usp=sharing)
 - [Folder with Highest score](https://drive.google.com/drive/folders/1wwm0Jx5mC5pu3FLjzhS3ryQwh4PTrofN?usp=sharing)
 
