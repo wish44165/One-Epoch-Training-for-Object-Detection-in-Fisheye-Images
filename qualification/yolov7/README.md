@@ -45,9 +45,7 @@ train: /home/yuhsi/pro/PAIR-LITEON/data/datasets/train
 val: /home/yuhsi/pro/PAIR-LITEON/data/datasets/val
 test: /home/yuhsi/pro/PAIR-LITEON/data/datasets/test
 #Classes
-nc: 4 # replace according to your number of classes
-#classes names
-#replace all class names list with your classes names
+nc: 4
 names: ['vehicle','pedestrian','scooter','bicycle']
 ```
 
