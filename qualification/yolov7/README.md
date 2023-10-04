@@ -87,7 +87,7 @@ $ python submit.py --weights ./runs/train/yolov7-e6e/epoch_000.pt --conf-thres 0
 
 ```bash
 $ wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x_training.pt
-$ python3 train.py --weights yolov7x_training.pt --data data/custom_fp.yaml --workers 16 --batch-size 8 --img 640 --cfg cfg/training/yolov7x.yaml --name yolov7x --hyp data/hyp.scratch.p5.yaml
+$ python3 train.py --weights yolov7x_training.pt --data data/custom.yaml --workers 16 --batch-size 8 --img 640 --cfg cfg/training/yolov7x.yaml --name yolov7x --hyp data/hyp.scratch.p5.yaml
 ```
 
 </details>
