@@ -10,34 +10,20 @@
 
 ## Custom Training Details
 
-<details><summary>Conda Envorinment</summary>
+
+
+<details><summary>Create Conda Envorinment</summary>
 
 ```bash
 $ conda create -n yolov7 python=3.9 -y
 $ conda activate yolov7
-```
-
-</details>
-
-<details><summary>Clone Repository</summary>
-
-```bash
 $ git clone https://github.com/WongKinYiu/yolov7.git
 $ cd yolov7/
 $ pip install -r requirements.txt
 $ pip install scikit-learn
 ```
 
-</details>
-
-<details><summary>Train</summary>
-
-```bash
-$ wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x_training.pt
-$ python3 train.py --weights yolov7x_training.pt --data data/custom_fp.yaml --workers 16 --batch-size 6 --img 640 --cfg cfg/training/yolov7x.yaml --name yolov7x --hyp data/hyp.scratch.p5.yaml
-```
-
-## If without using GPU
+### If w/o using GPU
 ```bash
 $ pip install --upgrade pip
 $ pip install -r requirements.txt
@@ -48,7 +34,6 @@ $ pip install torch
 ```
 
 </details>
-
 
 
 <details><summary>custom.yaml</summary>
@@ -64,6 +49,16 @@ nc: 4 # replace according to your number of classes
 #classes names
 #replace all class names list with your classes names
 names: ['vehicle','pedestrian','scooter','bicycle']
+```
+
+</details>
+
+
+<details><summary>YOLOv7-E6E: fine-tuning</summary>
+
+```bash
+$ wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e_training.pt
+$ python train_aux.py --weights yolov7-e6e --workers 24 --device 0 --batch-size 2 --data data/custom.yaml --img 1280 1280 --cfg cfg/training/yolov7-e6e.yaml --name yolov7-e6e --hyp data/hyp.scratch.p6.yaml
 ```
 
 </details>
