@@ -34,7 +34,7 @@ $ conda deactivate
 $ sudo apt-get install python3-virtualenv
 $ virtualenv --version    # check version
 # 2.
-$ python3.8 -m venv ~/mx    # fp-r
+$ python3.8 -m venv ~/mx
 $ . ~/mx/bin/activate
 
 $ pip3 install --upgrade pip wheel
@@ -43,7 +43,7 @@ $ pip3 install --extra-index-url https://developer.memryx.com/pip memryx
 >> eneural_event
 >> memryx23
 # install packages
-$ cd mx/    # fp-r
+$ cd mx/
 
 $ git clone https://github.com/WongKinYiu/yolov7.git
 $ cd yolov7/
