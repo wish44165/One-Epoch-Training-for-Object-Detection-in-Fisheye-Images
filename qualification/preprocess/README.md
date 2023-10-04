@@ -36,7 +36,18 @@ $ ./fisheye
 
 </details>
 
-<details><summary>5. Statistics on annotations.</summary>
+
+<details><summary>5. Implement data augmentation.</summary>
+
+```bash
+$ python data_aug.py
+$ python data_aug_2.py
+```
+
+</details>
+
+
+<details><summary>6. Statistics on annotations.</summary>
 
 ```bash
 $ python statistics.py
