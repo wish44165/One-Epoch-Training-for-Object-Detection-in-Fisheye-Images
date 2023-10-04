@@ -64,20 +64,15 @@ nc: 4 # replace according to your number of classes
 #classes names
 #replace all class names list with your classes names
 names: ['vehicle','pedestrian','scooter','bicycle']
-
-
 ```
 
-### Fisheye
+</details>
+
+
+<details><summary>YOLOv7-E6E: Inference</summary>
 
 ```bash
-train: /home/yuhsi/pro/PAIR-LITEON/data/datasets_fisheye/train
-val: /home/yuhsi/pro/PAIR-LITEON/data/datasets_fisheye/val
-#Classes
-nc: 5 # replace according to your number of classes
-#classes names
-#replace all class names list with your classes names
-names: ['Bus', 'Bike', 'Car', 'Pedestrian', 'Truck']
+$ python submit.py --weights ./runs/train/yolov7-e6e/epoch_000.pt --conf-thres 0.01 --iou-thres 0.5 --img-size 2176 --source /home/yuhsi/pro/PAIR-LITEON/data/ivslab_test_public --save-txt
 ```
 
 </details>
@@ -86,7 +81,6 @@ names: ['Bus', 'Bike', 'Car', 'Pedestrian', 'Truck']
 
 
 ### Final Competition
-
 
 
 <details><summary>YOLOv7-X: fine-tuning</summary>
