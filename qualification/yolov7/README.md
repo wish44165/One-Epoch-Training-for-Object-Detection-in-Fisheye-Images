@@ -5,12 +5,7 @@
 - [YOLOv7-E6E: epoch_000.pt (0.5700583)](https://drive.google.com/file/d/187FkcX5Drs3HP_70zw43BXbEKv61-p1U/view?usp=drive_link)
 
 
-
-
-
-## Custom Training Details
-
-
+### YOLOv7-E6E
 
 <details><summary>Create Conda Envorinment</summary>
 
@@ -52,7 +47,7 @@ names: ['vehicle','pedestrian','scooter','bicycle']
 </details>
 
 
-<details><summary>YOLOv7-E6E: fine-tuning</summary>
+<details><summary>fine-tuning</summary>
 
 ```bash
 $ wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e_training.pt
@@ -62,7 +57,7 @@ $ python train_aux.py --weights yolov7-e6e --workers 24 --device 0 --batch-size 
 </details>
 
 
-<details><summary>YOLOv7-E6E: Inference</summary>
+<details><summary>Inference</summary>
 
 ```bash
 $ python submit.py --weights ./runs/train/yolov7-e6e/epoch_000.pt --conf-thres 0.01 --iou-thres 0.5 --img-size 2176 --source /home/yuhsi/pro/PAIR-LITEON/data/ivslab_test_public --save-txt
@@ -71,12 +66,9 @@ $ python submit.py --weights ./runs/train/yolov7-e6e/epoch_000.pt --conf-thres 0
 </details>
 
 
+### YOLOv7-X
 
-
-### Final Competition
-
-
-<details><summary>YOLOv7-X: fine-tuning</summary>
+<details><summary>fine-tuning</summary>
 
 ```bash
 $ wget https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x_training.pt
