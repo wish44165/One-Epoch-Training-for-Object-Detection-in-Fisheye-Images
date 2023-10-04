@@ -167,7 +167,7 @@ $ pip install -r requirements.txt
 
 ### 4.1. Qualification Competition
 
-- [epoch_000.pt]()
+- [epoch_000.pt](https://drive.google.com/file/d/1_8tjqhdgy8UVrWlXnJcFTR4i7erNk0ym/view?usp=sharing)
 
 | Leaderboards     | Filename               | Upload time         | Evaluation result | Ranking |
 | ---------------- | ---------------------- | ------------------- | ----------------- | ------- |
