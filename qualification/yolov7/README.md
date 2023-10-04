@@ -2,7 +2,7 @@
 
 
 
-- [YOLOv7-E6E: epoch_000.pt (0.5700583)](https://drive.google.com/file/d/187FkcX5Drs3HP_70zw43BXbEKv61-p1U/view?usp=drive_link)
+- [YOLOv7-E6E: epoch_000.pt (0.5700583)](https://drive.google.com/file/d/1_8tjqhdgy8UVrWlXnJcFTR4i7erNk0ym/view?usp=sharing)
 
 
 ### YOLOv7-E6E
