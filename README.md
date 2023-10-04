@@ -134,12 +134,12 @@ $ pip install -r requirements.txt
 
 ### 3.1. Comparison between the unaltered image and the fisheye-distorted image
 
-<img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg" width="70%">
+<img src="https://github.com/TW-yuhsi/One-Epoch-Training-for-Object-Detection-in-Fisheye-Images/blob/main/assets/Fig3.jpg" width="70%">
 
 
 ### 3.2. Contrast between artificially fisheye-distorted and fisheye camera-captured image
 
-<img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig2.jpg" alt="SwingNet" width="70%" >
+<img src="https://github.com/TW-yuhsi/One-Epoch-Training-for-Object-Detection-in-Fisheye-Images/blob/main/assets/Fig4.jpg" alt="SwingNet" width="70%" >
 
 
 
