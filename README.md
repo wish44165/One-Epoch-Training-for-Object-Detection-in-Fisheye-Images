@@ -69,7 +69,7 @@ $ pip install -r requirements.txt
 
 <details><summary>Dataset Description</summary>
 
-### Restricted classes (a): vehicle→1, pedestrian→2, scooter→3, bicycl→4
+### Restricted classes (a): vehicle→1, pedestrian→2, scooter→3, bicycle→4
 
 | Datasets       | iVS-Dataset                   | FishEye8K                                             | Valeo                                 | Datasets_L (F+V)            |
 | -------------- | ----------------------------- | ----------------------------------------------------- | ------------------------------------- | --------------------------- |
