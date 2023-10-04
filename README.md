@@ -132,19 +132,14 @@ $ pip install -r requirements.txt
 
 ## 3. Demonstration
 
-### 3.1. Optical Flow Calculation embedded in Reynolds Transport Theorem
+### 3.1. Comparison between the unaltered image and the fisheye-distorted image
 
-[<img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg" width="70%">](https://youtu.be/6Lm6zaKWwhk)
+<img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig1.jpg" width="70%">
 
 
-### 3.2. SwingNet (MobileNetV2 + bidirectional LSTM)
+### 3.2. Contrast between artificially fisheye-distorted and fisheye camera-captured image
 
 <img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig2.jpg" alt="SwingNet" width="70%" >
-
-
-### 3.3. YOLOv5 & TrackNetV2 & YOLOv8-pose 
-
-[<img src="https://github.com/TW-yuhsi/A-New-Perspective-for-Shuttlecock-Hitting-Event-Detection/blob/main/assets/Fig6.jpg" width="70%">](https://youtu.be/Bkc9bswT5uE)
 
 
 
