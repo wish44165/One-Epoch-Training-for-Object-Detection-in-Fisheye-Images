@@ -65,13 +65,13 @@ $ pip install -r requirements.txt
 
 
 
-## 2. Replicating Details
+## 2. Reproducing Details
 
 <details><summary>Dataset Description</summary>
 
 ### Restricted classes (a): vehicle→1, pedestrian→2, scooter→3, bicycle→4
 
-| Datasets       | iVS-Dataset                   | FishEye8K                                             | Valeo                                 | Datasets_L (F+V)            |
+| Datasets       | iVS-Dataset                   | FishEye8K                                             | Valeo                                 | Datasets-L (F+V)            |
 | -------------- | ----------------------------- | ----------------------------------------------------- | ------------------------------------- | --------------------------- |
 | Classes        | (a)                           | Bus:1→1, Bike:2→3, Car:3→1, Pedestrian:4→2, Truck:5→1 | vehicles:1→1, person:2→2, bicycle:3→4 | (a)                         |
 | # Train img    | 89002                         | 5288                                                  | 6587                                  | 11875                       |
@@ -84,7 +84,7 @@ $ pip install -r requirements.txt
 
 #### Data Augmentation
 
-| Augmented Datasets | Datasets_fp | Datasets_fp-f | Datasets_fp-r | Datasets_fp-f-r |
+| Augmented Datasets | Datasets-fp | Datasets-fp-f | Datasets-fp-r | Datasets_fp-r-f |
 | ------------------ | ----------- | ------------- | ------------- | --------------- |
 | Classes            | (a)         | (a)           | (a)           | (a)             |
 | # Train img        | 151042      | 151042        | 453126        | 453126          |
