@@ -108,11 +108,17 @@ $ pip install -r requirements.txt
     qualification/
     ├── yolov7/
         ├── requirements.txt
-        └── submit.py
+        ├── submit.py
+        └── test.py
     └── preprocess/
-        ├── DataAugmentationForObjectDetection/
-        ├── Tools_KITTI2FishEye/
-        └── resplit.py
+        ├── xml2txt.py
+        ├── folderStructure.py
+        ├── resplit.py
+        ├── fisheye
+        ├── data_aug.py
+        ├── data_aug_2.py
+        └── statistics.py
+
     # Final Competition
     mx/
     ├── requirements.txt
