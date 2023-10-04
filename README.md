@@ -1,8 +1,8 @@
 ## [ACM multimedia asia 2023 - Grand Challenge: Embedded AI Object Detection Model Design Contest on Fish-eye Around-view Cameras](http://www.mmasia2023.org/grand_challenges.html)
 
-### [PAIR-LITEON Competition: Embedded AI Object Detection Model Design Contest on Fish-eye Around-view Cameras](https://aidea-web.tw/topic/2be7c481-0e16-43b8-8d5d-fb181172144b?focus=intro) (Team name: yuhsi44165)
+### [PAIR-LITEON Competition: Embedded AI Object Detection Model Design Contest on Fish-eye Around-view Cameras](https://aidea-web.tw/topic/2be7c481-0e16-43b8-8d5d-fb181172144b?focus=intro) (Team name: [yuhsi44165](https://github.com/TW-yuhsi/PAIR-LITEON))
 
-### [PAIR-LITEON Competition: Embedded AI Object Detection Model Design Contest on Fish-eye Around-view Cameras(Final Competition)](https://aidea-web.tw/topic/bce44864-7bf6-4a07-a573-fb7ba2c0127a) (Team name: yuhsi44165)
+### [PAIR-LITEON Competition: Embedded AI Object Detection Model Design Contest on Fish-eye Around-view Cameras(Final Competition)](https://aidea-web.tw/topic/bce44864-7bf6-4a07-a573-fb7ba2c0127a) (Team name: [yuhsi44165](https://github.com/TW-yuhsi/Object-Detection-for-Fisheye-Images-taken-by-Around-view-Cameras))
 
 ---
 
