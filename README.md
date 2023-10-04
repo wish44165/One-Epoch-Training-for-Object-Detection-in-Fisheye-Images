@@ -166,12 +166,18 @@ $ pip install -r requirements.txt
 ## 4. Leaderboard Scores
 
 ### 4.1. Qualification Competition
+
+- [epoch_000.pt]()
+
 | Leaderboards     | Filename               | Upload time         | Evaluation result | Ranking |
 | ---------------- | ---------------------- | ------------------- | ----------------- | ------- |
 | Public & Private | fp-1-0.01-0.5-2172.csv | 2023-08-04 00:51:42 | 0.5700583         | 1/24    |
 
 
 ### 4.2. Final Competition
+
+- [best.pt](https://drive.google.com/file/d/1X7ohtBcc--Ivknpj-NlSlxA2rAF_faPc/view?usp=sharing)
+
 | Team       | Score | Accuracy | Model Complexity GFLOPs | Model size MB | Speed ms | Ranking |
 | ---------- | ----- | -------- | ----------------------- | ------------- | -------- | ------- |
 | yuhsi44165 | 26.60 | 11.23%   | 195.91                  | 283.34        | 114.80   | 4/11    |
