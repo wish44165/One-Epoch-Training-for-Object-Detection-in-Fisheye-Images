@@ -168,15 +168,15 @@ $ pip install -r requirements.txt
 - [FishEye8K: A Benchmark and Dataset for Fisheye Camera Object Detection](https://github.com/MoyoG/FishEye8K)
 - [WoodScape: A multi-task, multi-camera fisheye dataset for autonomous driving](https://github.com/valeoai/WoodScape)
 - [Conversion Tool for FishEye Dataset](https://github.com/leofansq/Tools_KITTI2FishEye)
+- [Official YOLOv7](https://github.com/WongKinYiu/yolov7)
 
 
 
 
 ## 6. References
 
-- [Fisheye transformation enhances deep-learning-based single-cell phenotyping by including cellular microenvironment](https://www.sciencedirect.com/science/article/pii/S2667237522002363)
 - [Correcting Fisheye Images](https://www.baeldung.com/cs/correcting-fisheye-images)
-- [WoodScape: A Multi-Task, Multi-Camera Fisheye Dataset for Autonomous Driving](https://ieeexplore.ieee.org/document/9008254) (https://arxiv.org/abs/1905.01489)
+- [WoodScape: A Multi-Task, Multi-Camera Fisheye Dataset for Autonomous Driving](https://ieeexplore.ieee.org/document/9008254)
 
 
 
