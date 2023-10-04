@@ -1,7 +1,7 @@
 ## Preprocess
 
 
-<details><summary>Transfer original XML to YOLO TXT format</summary>
+<details><summary>1. Convert the original XML files into YOLO TXT format.</summary>
 
 ```bash
 $ python xml2txt.py
@@ -10,7 +10,25 @@ $ python xml2txt.py
 </details>
 
 
-<details><summary>Fisheye Distortion</summary>
+<details><summary>2. Organize in a folder structure that is conducive to training.</summary>
+
+```bash
+$ python folderStructure.py
+```
+
+</details>
+
+
+<details><summary>3. Resplit the dataset into better validation-training ratio.</summary>
+
+```bash
+$ python resplit.py
+```
+
+</details>
+
+
+<details><summary>4. Implement fisheye distortion</summary>
 
 ```bash
 $ ./fisheye
@@ -18,7 +36,7 @@ $ ./fisheye
 
 </details>
 
-<details><summary>Annotation Statistics</summary>
+<details><summary>5. Statistics on annotations.</summary>
 
 ```bash
 $ python statistics.py
