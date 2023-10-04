@@ -165,29 +165,18 @@ $ pip install -r requirements.txt
 
 ## 5. GitHub Acknowledgement
 
-- [TrackNetV2: N-in-N-out Pytorch version (GitLab)](https://nol.cs.nctu.edu.tw:234/lukelin/TrackNetV2_pytorch)
-- [GolfDB: A Video Database for Golf Swing Sequencing](https://github.com/wmcnally/golfdb)
-- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://github.com/jeonsworld/ViT-pytorch)
-- [Ultralytics YOLOv5 v7.0](https://github.com/ultralytics/yolov5)
-- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
-- [A PyTorch implementation of MobileNetV3](https://github.com/xiaolai-sqlai/mobilenetv3)
-- [Sequence Modeling Benchmarks and Temporal Convolutional Networks (TCN)](https://github.com/locuslab/TCN)
+- [FishEye8K: A Benchmark and Dataset for Fisheye Camera Object Detection](https://github.com/MoyoG/FishEye8K)
+- [WoodScape: A multi-task, multi-camera fisheye dataset for autonomous driving](https://github.com/valeoai/WoodScape)
+- [Conversion Tool for FishEye Dataset](https://github.com/leofansq/Tools_KITTI2FishEye)
 
 
 
 
 ## 6. References
 
-- [Lucas/Kanade meets Horn/Schunck: Combining local and global optic flow methods](http://helios.mi.parisdescartes.fr/~lomn/Cours/CV/SeqVideo/Articles2017/ShunckMeetsKanade_4.pdf)
-- [Stochastic representation of the Reynolds transport theorem: revisiting large-scale modeling](https://arxiv.org/pdf/1611.03413)
-- [TrackNetV2: Efficient shuttlecock tracking network](https://ieeexplore.ieee.org/iel7/9302522/9302594/09302757.pdf)
-- [GolfDB: A Video Database for Golf Swing Sequencing](https://openaccess.thecvf.com/content_CVPRW_2019/papers/CVSports/McNally_GolfDB_A_Video_Database_for_Golf_Swing_Sequencing_CVPRW_2019_paper.pdf)
-- [An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/pdf/2010.11929.pdf)
-- [Ultralytics YOLOv5 v7.0](https://ui.adsabs.harvard.edu/abs/2022zndo...7347926J/abstract)
-- [Ultralytics YOLOv8 Docs](https://docs.ultralytics.com/modes/predict/#working-with-results)
-- [Searching for mobilenetv3](http://openaccess.thecvf.com/content_ICCV_2019/papers/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.pdf)
-- [An Empirical Evaluation of Generic Convolutional and Recurrent Networks for Sequence Modeling](https://arxiv.org/pdf/1803.01271.pdf%E3%80%82%E6%9C%AC%E6%96%87%E5%BC%95%E7%94%A8%E7%94%A8(%5C*)%E8%A1%A8%E7%A4%BA%E3%80%82)
-
+- [Fisheye transformation enhances deep-learning-based single-cell phenotyping by including cellular microenvironment](https://www.sciencedirect.com/science/article/pii/S2667237522002363)
+- [Correcting Fisheye Images](https://www.baeldung.com/cs/correcting-fisheye-images)
+- [WoodScape: A Multi-Task, Multi-Camera Fisheye Dataset for Autonomous Driving](https://ieeexplore.ieee.org/document/9008254) (https://arxiv.org/abs/1905.01489)
 
 
 
