@@ -65,7 +65,7 @@ $ pip install -r requirements.txt
 
 
 
-## 2. Inference Details
+## 2. Replicating Details
 
 <details><summary>Dataset Description</summary>
 
@@ -124,6 +124,20 @@ $ pip install -r requirements.txt
     ├── best.csv
     └── best.txt
     ```
+
+</details>
+
+
+<details><summary>Qualification Competition</summary>
+
+- [Implementation Details](https://github.com/TW-yuhsi/One-Epoch-Training-for-Object-Detection-in-Fisheye-Images/tree/main/qualification)
+
+</details>
+
+
+<details><summary>Final Competition</summary>
+
+- [Implementation Details](https://github.com/TW-yuhsi/One-Epoch-Training-for-Object-Detection-in-Fisheye-Images/tree/main/mx)
 
 </details>
   
