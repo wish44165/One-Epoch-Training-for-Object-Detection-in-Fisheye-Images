@@ -10,7 +10,7 @@
 
 $\large{\textbf{Abstract}}$
 
-This challenge is divided into two stages: qualification and final competition. We will acquire regular image data and need to perform detection on images with a fisheye effect. The approach outlined in this report involves initially taking the original images and transforming them to resemble images with a fisheye effect for training purposes. Furthermore, this challenge imposes limitations on computational resources, so striking a balance between accuracy and speed is a crucial aspect. To summarize, we secured the first position in the qualification competition and the fourth position in the final competition.
+This challenge is divided into two stages: qualification and final competition. We will acquire regular image data and need to perform detection on images with a fisheye effect. The approach described in this context begins by taking the original images and transforming them to mimic fisheye effect images for training. Furthermore, this challenge imposes limitations on computational resources, so striking a balance between accuracy and speed is a crucial aspect. In this paper, we asserted that our approach for this competition can achieve high performance with just one epoch of training. In summary, we achieved the top position among 24 participating teams in the qualification competition and secured the fourth position among the 11 successful submitted teams in the final competition.
 
 
 
