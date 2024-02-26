@@ -201,3 +201,17 @@ $ pip install -r requirements.txt
 - [Correcting Fisheye Images](https://www.baeldung.com/cs/correcting-fisheye-images)
 - [WoodScape: A Multi-Task, Multi-Camera Fisheye Dataset for Autonomous Driving](https://ieeexplore.ieee.org/document/9008254)
 - [Visual Chirality](https://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Visual_Chirality_CVPR_2020_paper.pdf)
+
+
+
+
+## Citation
+```
+@inproceedings{chen2023one,
+  title={One-Epoch Training for Object Detection in Fisheye Images},
+  author={Chen, Yu-Hsi},
+  booktitle={Proceedings of the 5th ACM International Conference on Multimedia in Asia},
+  pages={1--5},
+  year={2023}
+}
+```
