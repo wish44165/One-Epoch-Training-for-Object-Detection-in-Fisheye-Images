@@ -1,14 +1,25 @@
-## [ACM multimedia asia 2023 - Grand Challenge: Embedded AI Object Detection Model Design Contest on Fish-eye Around-view Cameras](http://www.mmasia2023.org/grand_challenges.html)
+> [One-Epoch Training for Object Detection in Fisheye Images](https://dl.acm.org/doi/abs/10.1145/3595916.3628349)
+>
+> Yu-Hsi Chen
+<a href="https://orcid.org/0009-0006-1771-0289"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="12" alt="ORCID"></a>
+
+
+
+
+<details><summary>Competition Details</summary>
+
+### [ACM multimedia asia 2023 - Grand Challenge: Embedded AI Object Detection Model Design Contest on Fish-eye Around-view Cameras](http://www.mmasia2023.org/grand_challenges.html)
 
 ### [PAIR-LITEON Competition: Embedded AI Object Detection Model Design Contest on Fish-eye Around-view Cameras](https://aidea-web.tw/topic/2be7c481-0e16-43b8-8d5d-fb181172144b?focus=intro) (Team name: [yuhsi44165](https://github.com/TW-yuhsi/PAIR-LITEON))
 
 ### [PAIR-LITEON Competition: Embedded AI Object Detection Model Design Contest on Fish-eye Around-view Cameras(Final Competition)](https://aidea-web.tw/topic/bce44864-7bf6-4a07-a573-fb7ba2c0127a) (Team name: [yuhsi44165](https://github.com/TW-yuhsi/Object-Detection-for-Fisheye-Images-taken-by-Around-view-Cameras))
 
----
+</details>
 
 
 
-$\large{\textbf{Abstract}}$
+
+## Abstract
 
 This challenge is divided into two stages: qualification and final competition. We will acquire regular image data and need to perform detection on images with a fisheye effect. The approach described in this context begins by taking the original images and transforming them to mimic fisheye effect images for training. Furthermore, this challenge imposes limitations on computational resources, so striking a balance between accuracy and speed is a crucial aspect. In this [paper](https://dl.acm.org/doi/abs/10.1145/3595916.3628349), we asserted that our approach for this competition can achieve high performance with just one epoch of training. In summary, we achieved the top position among 24 participating teams in the qualification competition and secured the fourth position among the 11 successful submitted teams in the final competition.
 
